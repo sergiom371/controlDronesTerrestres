@@ -156,7 +156,7 @@ namespace ControlDrones
         [System.Web.Services.WebMethod]
         public static LecturasSensores LeerVelocidad()
         {
-            LecturasSensores lecturas = new LecturasSensores();
+            LecturasSensores lecturas = null;
             
             try
             {
@@ -294,10 +294,6 @@ namespace ControlDrones
             return cocheRC.AnularPotencia();
         }
 
-
-
-
-        
 
 
 

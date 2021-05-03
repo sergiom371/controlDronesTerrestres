@@ -217,7 +217,7 @@ namespace ControlDrones.Dron
         //Lecturas
         public LecturasSensores LeerVelocidad()
         {
-            LecturasSensores lecturas = new LecturasSensores();
+            LecturasSensores lecturas = null;
 
             if (this.encendido)
             {
@@ -230,7 +230,7 @@ namespace ControlDrones.Dron
 
         public LecturasSensores LeerOrientacion()
         {
-            LecturasSensores lecturas = new LecturasSensores();
+            LecturasSensores lecturas = null;
 
             if (this.encendido)
             {
@@ -242,7 +242,7 @@ namespace ControlDrones.Dron
 
         public LecturasSensores LeerBarometrico()
         {
-            LecturasSensores lecturas = new LecturasSensores();
+            LecturasSensores lecturas = null;
 
             if (this.encendido)
             {
@@ -257,7 +257,7 @@ namespace ControlDrones.Dron
         //Sincronizar
         public LecturasSensores Sincronizar()
         {
-            LecturasSensores lecturas = new LecturasSensores();
+            LecturasSensores lecturas = null;
 
             if (this.encendido)
             {
