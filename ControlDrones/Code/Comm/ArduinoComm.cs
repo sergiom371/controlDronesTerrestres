@@ -32,45 +32,62 @@ namespace ControlDrones.Comm
         //Sincronizar
         public LecturasSensores Sincronizar(int direccion, int potencia)
         {
-            return new LecturasArduino(EnviarPeticion(GenerarUrl(CommOperacion.estado, CommTipo.output, direccion.ToString(), potencia.ToString())));
+            return new LecturasArduino(
+                        EnviarPeticion(
+                            GenerarUrl(CommOperacion.estado, CommTipo.output, direccion.ToString(), potencia.ToString()))
+                        );
         }
 
 
         //Aplicar dirección y potencia
         public String DefinirCanalDireccion()
         {
-            return EnviarPeticion(GenerarUrl(CommOperacion.pin, CommTipo.servo, CANAL_DIRECCION.ToString()));
+            return EnviarPeticion(
+                    GenerarUrl(CommOperacion.pin, CommTipo.servo, CANAL_DIRECCION.ToString())
+                    );
         }
 
         public String DefinirCanalMotor()
         {
-            return EnviarPeticion(GenerarUrl(CommOperacion.pin, CommTipo.servoMotor, CANAL_POTENCIA.ToString()));
+            return EnviarPeticion(
+                    GenerarUrl(CommOperacion.pin, CommTipo.servoMotor, CANAL_POTENCIA.ToString())
+                    );
         }
 
         public String AplicarDireccion(int valor)
         {
-            return EnviarPeticion(GenerarUrl(CommOperacion.servo, CommTipo.output, CANAL_DIRECCION.ToString(), valor.ToString()));
+            return EnviarPeticion(
+                    GenerarUrl(CommOperacion.servo, CommTipo.output, CANAL_DIRECCION.ToString(), valor.ToString())
+                    );
         }
 
         public String AplicarPotencia(int valor)
         {
-            return EnviarPeticion(GenerarUrl(CommOperacion.servoMotor, CommTipo.output, CANAL_POTENCIA.ToString(), valor.ToString()));
+            return EnviarPeticion(
+                    GenerarUrl(CommOperacion.servoMotor, CommTipo.output, CANAL_POTENCIA.ToString(), valor.ToString())
+                    );
         }
 
         //Lectura de sensores
         public LecturasSensores LeerSensorVelocidad()
         {
-            return new LecturasArduino(EnviarPeticion(GenerarUrl(CommOperacion.velocimetro, CommTipo.output, "0")));
+            return new LecturasArduino(EnviarPeticion(
+                    GenerarUrl(CommOperacion.velocimetro, CommTipo.output, "0"))
+                    );
         }
 
         public LecturasSensores LeerSensorBrujula()
         {
-            return new LecturasArduino(EnviarPeticion(GenerarUrl(CommOperacion.brujula, CommTipo.output, "0")));
+            return new LecturasArduino(EnviarPeticion(
+                    GenerarUrl(CommOperacion.brujula, CommTipo.output, "0"))
+                    );
         }
 
         public LecturasSensores LeerSensorBarometrico()
         {
-            return new LecturasArduino(EnviarPeticion(GenerarUrl(CommOperacion.barometrico, CommTipo.output, "0")));
+            return new LecturasArduino(EnviarPeticion(
+                    GenerarUrl(CommOperacion.barometrico, CommTipo.output, "0"))
+                    );
         }
 
 
