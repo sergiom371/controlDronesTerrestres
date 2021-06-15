@@ -17,6 +17,8 @@ Algunas consideraciones importantes a tener en cuenta:
 
 # Componentes hardware
 
+En construcción
+
 El coche seleccionado para el proyecto fue el modelo H.King Rattler 1/8 4WD Buggy, que se comercializa (o comercializaba) por la tienda HobbyKing. El mando de radio control se incluía en el pack de venta.
 
 Si se levanta el chasis del coche algunos componentes del mismo que se pueden ver son:
@@ -37,3 +39,9 @@ Para poder sustituir el mecanismo de control por radio del coche RC por otro bas
 # Componentes software
 
 En construcción
+
+Capa de presentación.
+
+Capa de negocio.
+
+Capa de comunicaciones.
