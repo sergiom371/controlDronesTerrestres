@@ -2,7 +2,7 @@
 
 El objetivo del proyecto es sustituir el mecanismo de control de un dron terrestre (un coche RC), típicamente basado en un mando físico que emite las órdenes al coche por alguna tecnología de radio, por otro basado en una red de datos TCP/IP mediante el uso de una aplicación web y un mando de videojuegos. También se contemplan temas de monitorización del coche mediante la instalación en el mismo de una serie de sensores que permiten medir ciertos parámetros, como la velocidad o la temperatura ambiente. Para ello, se emplea una placa Arduino que sirve de puente entre el coche RC y la aplicación web.
 
-Un vistazo rápido del funcionamiento y componentes del proyecto en el siguiente vídeo:
+**Un vistazo rápido del funcionamiento y componentes del proyecto en el siguiente vídeo:**
 
 [![Alt](http://img.youtube.com/vi/hJ5HVmcTfEM/0.jpg)](http://www.youtube.com/watch?v=hJ5HVmcTfEM "Title")
 
