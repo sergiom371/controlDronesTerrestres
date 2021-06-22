@@ -22,11 +22,12 @@ En construcción
 
 El coche seleccionado para el proyecto fue el modelo H.King Rattler 1/8 4WD Buggy, que se comercializa (o comercializaba) por la tienda HobbyKing. El mando de radio control se incluía en el pack de venta.
 
-![Test](img/RC.jpg "H.King Rattler 1/8 4WD Buggy")
+![H.King Rattler 1/8 4WD Buggy](img/RC.jpg "H.King Rattler 1/8 4WD Buggy")
 
 Si se levanta el chasis del coche algunos componentes del mismo que se pueden ver son:
 
- * **Bateria**. No se incluye en el pack y fue adquirida a parte. Es una 9172 Turnigy 5000mAh 2S 20C Lipo Pack.
+ * **Batería**. No se incluye en el pack y fue adquirida a parte. Es una 9172 Turnigy 5000mAh 2S 20C Lipo Pack.
+ ![Batería](img/bateria.jpg "9172 Turnigy 5000mAh 2S 20C Lipo Pack")
  * **Variador de velocidad**. Esta pieza, comúnmente conocido como ESC o speed controller, es el componente central del coche, y se conecta simultáneamente al motor del coche, a la batería, y al receiver. Originalmente era un Waterproof Esc de 40A, y soportaba baterías lipos de 2 o 3 células. Pero en pleno desarrollo del proyecto  el variador original del sufrió una avería, y tuvo que ser sustituido por otro HobbyWing eZRun compatible con el resto de componentes del coche.
  * **Motor**. Es de tipo 4 pole 540 size H.King 2700 KV.
  * **Receiver**. El receptor (receiver) es el puente de unión entre el mando de control y el resto de componentes del coche. Está conectado tanto al controlador de velocidad (ESC) como al servo de dirección, permitiendo de esta manera el control a distancia sobre la dirección y la potencia y sentido de desplazamiento del coche, respectivamente.
