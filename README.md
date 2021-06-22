@@ -10,8 +10,9 @@ El objetivo del proyecto es sustituir el mecanismo de control de un dron terrest
 
 Algunas consideraciones importantes a tener en cuenta:
 
- * El objetivo del proyecto fue la **experimientación y el auto aprendizaje**. NO PRETENDE servir de ejemplo de código fuente limpio, patrones de diseño, etc. De hecho, el único criterio a la hora de elegir tecnología para el desarrollo (ASP.NET, .NET Framework 4.5, WebMethods, jQuery) fue únicamente que era tecnología que me resultaba familiar.
- * El proyecto se desarrolló en 2016. Seguramente existan soluciones hardware y software más efectivas que las empleadas en el proyecto en la actualidad. 
+ * El proyecto se desarrolló en 2016, con tecnología hardware y software de ese año. Desde entonces no ha habido ninguna evolución del proycto, por lo que seguramente hoy en día existan tecnologías más efectivas que las empleadas en el proyecto en la actualidad. 
+ * Mi campo no es la electrónica, ni las placas, ni los cableados, ni los voltajes. Cuando empecé con el proyecto era totalmente novato en estas cuestiones y tuve que dedicar una ingente cantidad de tiempo y disgustos a experimentar con estas cosas. El proyecto NO PRETENDE servir de buen ejemplo de estas tecnologías.
+ * El objetivo del proyecto fue la **experimientación y el auto aprendizaje**. TAMPOCO PRETENDE servir de ejemplo de código fuente limpio, patrones de diseño, etc. De hecho, el único criterio a la hora de elegir tecnología para el desarrollo (ASP.NET, .NET Framework 4.5, WebMethods, jQuery) fue únicamente que era tecnología que me resultaba familiar.
  * Es un proyecto donde los componentes electrónicos empleados tienen un gran peso, y donde algunos o muchos de los componentes hardware empleados son muy complicados obtener hoy en día al estar descatalogados, anticuados, etc. Por lo tanto, es un proyecto muy dificilmente reproducible por algún interesado hoy en dia, al menos exactamente como fue concebido.
  * Por todo ello, es importante aclarar que este proyecto está publicado por si alguien quiere curiosear por el código, comprobar cómo se comunica el arduino con el coche RC, o cosas así. El proyecto no está ahora mismo en evolución, ni esta previsto lanzar futuras versiones ampliando funcionalidades o mejorando el código.
 
@@ -20,6 +21,8 @@ Algunas consideraciones importantes a tener en cuenta:
 En construcción
 
 El coche seleccionado para el proyecto fue el modelo H.King Rattler 1/8 4WD Buggy, que se comercializa (o comercializaba) por la tienda HobbyKing. El mando de radio control se incluía en el pack de venta.
+
+![H.King Rattler 1/8 4WD Buggy(Images/RC.jpg "H.King Rattler 1/8 4WD Buggy")
 
 Si se levanta el chasis del coche algunos componentes del mismo que se pueden ver son:
 
