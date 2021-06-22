@@ -1,4 +1,4 @@
-# Control y monitorización de drones terrestres - Página en construcción!
+# Control y monitorización de drones terrestres (Página en construcción)
 
 El objetivo del proyecto es sustituir el mecanismo de control de un dron terrestre (un coche RC), típicamente basado en un mando físico que emite las órdenes al coche por alguna tecnología de radio, por otro basado en una red de datos TCP/IP mediante el uso de una aplicación web y un mando de videojuegos. También se contemplan temas de monitorización del coche mediante la instalación en el mismo de una serie de sensores que permiten medir ciertos parámetros, como la velocidad o la temperatura ambiente. Para ello, se emplea una placa Arduino que sirve de puente entre el coche RC y la aplicación web.
 
@@ -57,7 +57,7 @@ Para poder sustituir el mecanismo de control por radio del coche RC por otro bas
 
 ![Arduino](img/arduino.jpg "Arduino")
 
-* **Sensores en la placa GY-80**. El coche no incorpora ningún sensor que permita la monitorización de su comportamiento. Es por ello que decidió usarse la placa GY-80 que incorpora en una misma placa 4 componentes: un magnetómetro (HMC5883L), un giroscopio (L3G4200D), un acelerómetro (ADXL345) y un barómetro (BMP085). Se conecta a la Arduin a través del bus I2C. Y, como se puede observar en el vídeo, en el montaje se sitúa sobre un protoboard. Hay que resaltar que el GY-80 no proporciona mediciones sobre la velocidad, únicamente sobre la aceleración sufrida. Para inferir la velocidad a partir de la aceleración se realiza una estimación mediante la "Regla del Trapecio", basada en obtener medidas periódicas.
+* **Sensores en la placa GY-80**. El coche no incorpora ningún sensor que permita la monitorización de su comportamiento. Es por ello que decidió usarse la placa GY-80 que incorpora en una misma placa 4 componentes: un magnetómetro (HMC5883L), un giroscopio (L3G4200D), un acelerómetro (ADXL345) y un barómetro (BMP085). Se conecta a la Arduin0 a través del bus I2C. Y, como se puede observar en el vídeo, en el montaje se sitúa sobre un protoboard. Hay que resaltar que el GY-80 no proporciona mediciones sobre la velocidad, únicamente sobre la aceleración sufrida. Para inferir la velocidad a partir de la aceleración se realiza una estimación mediante la "Regla del Trapecio", basada en obtener medidas periódicas.
 
 ![GY-80](img/gy-80.jpg "GY-80")
 
@@ -78,4 +78,4 @@ En construcción
 * Controles de medición. Se ha usado la librería SteelSeries Gauges para representar visualmente estos controles.
 * Para la comunicación Ajax de la página con el servidor se ha empleado la tecnología WebMethods de ASP.NET
 
-**Programación de la placa Arduino**. Dentro de la carpeta Arduino se encuentra el código de la placa. Básicamente, en la Arduino se levantan una serie de servicios web similares a REST que usan JSON para intercambiar datos, y que aceptan peticiones para contolar el coche o monitorizar su estado. Estos servicios a su vez traducen las órdenes recibidas y actúan sobre los servos/sensores del coche para realizar la acción solicitada.
+**Programación de la placa Arduino**. Dentro de la carpeta Arduino se encuentra el código ISO para programar la placa. Básicamente, en la Arduino se levantan una serie de servicios web similares a REST que usan JSON para intercambiar datos, y que aceptan peticiones para contolar el coche o monitorizar su estado. Estos servicios a su vez traducen las órdenes recibidas y actúan sobre los servos/sensores del coche para realizar la acción solicitada.
