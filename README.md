@@ -6,7 +6,7 @@ El objetivo del proyecto es sustituir el mecanismo de control de un dron terrest
 
 [![Alt](http://img.youtube.com/vi/hJ5HVmcTfEM/0.jpg)](http://www.youtube.com/watch?v=hJ5HVmcTfEM "Title")
 
-# El proyecto
+## El proyecto
 
 Algunas consideraciones importantes a tener en cuenta:
 
@@ -16,7 +16,7 @@ Algunas consideraciones importantes a tener en cuenta:
  * Es un proyecto donde los componentes electrónicos empleados tienen un gran peso, y donde algunos o muchos de los componentes hardware empleados son muy complicados obtener hoy en día al estar descatalogados, anticuados, etc. Por lo tanto, es un proyecto muy dificilmente reproducible por algún interesado hoy en dia, al menos exactamente como fue concebido.
  * Por todo ello, es importante aclarar que este proyecto está publicado por si alguien quiere curiosear por el código, comprobar cómo se comunica el arduino con el coche RC, o cosas así. El proyecto no está ahora mismo en evolución, ni esta previsto lanzar futuras versiones ampliando funcionalidades o mejorando el código.
 
-# Componentes hardware
+## Componentes hardware
 
 En construcción
 
@@ -40,7 +40,7 @@ Para poder sustituir el mecanismo de control por radio del coche RC por otro bas
 
 
 
-# Componentes software
+## Componentes software
 
 En construcción
 
