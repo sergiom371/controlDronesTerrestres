@@ -1,6 +1,6 @@
-# Control y monitorización de drones terrestres (Página en construcción)
+# Control y monitorización de drones terrestres
 
-El objetivo del proyecto es sustituir el mecanismo de control de un dron terrestre (un coche RC), típicamente basado en un mando físico que emite las órdenes al coche por alguna tecnología de radio, por otro basado en una red de datos TCP/IP mediante el uso de una aplicación web y un mando de videojuegos. También se contemplan temas de monitorización del coche mediante la instalación en el mismo de una serie de sensores que permiten medir ciertos parámetros, como la velocidad o la temperatura ambiente. Para ello, se emplea una placa Arduino que sirve de puente entre el coche RC y la aplicación web.
+El objetivo del proyecto es sustituir el mecanismo de control de un coche RC (típicamente un mando que funciona por radio), por otro basado en una web que permite controlar el coche mediante un mando de videojuegos, y que funciona bajo una red de datos TCP/IP. También se contemplan temas de monitorización del coche mediante la instalación en el mismo de una serie de sensores que permiten medir ciertos parámetros, como la velocidad o la temperatura ambiente. Para ello, se emplea una placa Arduino que sirve de puente entre el coche RC y la aplicación web.
 
 **Un vistazo rápido del funcionamiento y componentes del proyecto en el siguiente vídeo: http://www.youtube.com/watch?v=hJ5HVmcTfEM**
 
@@ -10,7 +10,7 @@ El objetivo del proyecto es sustituir el mecanismo de control de un dron terrest
 
 Algunas consideraciones importantes a tener en cuenta:
 
- * El proyecto se desarrolló en 2016, con tecnología hardware y software de ese año. Desde entonces no ha habido ninguna evolución del proycto, por lo que seguramente hoy en día existan tecnologías más efectivas que las empleadas en el proyecto en la actualidad. 
+ * El proyecto se desarrolló en **2016**, con tecnología hardware y software de ese año. Desde entonces no ha habido ninguna evolución del proycto, por lo que seguramente hoy en día existan tecnologías más efectivas que las empleadas en el proyecto en la actualidad. 
  * Mi campo no es la electrónica, ni las placas, ni los cableados, ni los voltajes. Cuando empecé con el proyecto era totalmente novato en estas cuestiones y tuve que dedicar una ingente cantidad de tiempo y disgustos a experimentar con estas cosas. El proyecto NO PRETENDE servir de buen ejemplo de estas tecnologías.
  * El objetivo del proyecto fue la **experimientación y el auto aprendizaje**. TAMPOCO PRETENDE servir de ejemplo de código fuente limpio, patrones de diseño, etc. De hecho, el único criterio a la hora de elegir tecnología para el desarrollo (ASP.NET, .NET Framework 4.5, WebMethods, jQuery) fue únicamente que era tecnología que me resultaba familiar.
  * Es un proyecto donde los componentes electrónicos empleados tienen un gran peso, y donde algunos o muchos de los componentes hardware empleados son muy complicados obtener hoy en día al estar descatalogados, anticuados, etc. Por lo tanto, es un proyecto muy dificilmente reproducible por algún interesado hoy en dia, al menos exactamente como fue concebido.
