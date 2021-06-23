@@ -16,6 +16,10 @@ Algunas consideraciones importantes a tener en cuenta:
  * Es un proyecto donde los componentes electrónicos empleados tienen un gran peso, y donde algunos o muchos de los componentes hardware empleados son muy complicados obtener hoy en día al estar descatalogados, anticuados, etc. Por lo tanto, es un proyecto muy dificilmente reproducible por algún interesado hoy en dia, al menos exactamente como fue concebido.
  * Por todo ello, es importante aclarar que este proyecto está publicado por si alguien quiere curiosear por el código, comprobar cómo se comunica el arduino con el coche RC, o cosas así. El proyecto no está ahora mismo en evolución, ni esta previsto lanzar futuras versiones ampliando funcionalidades o mejorando el código.
 
+![Mando](img/mando2.jpg "Mando de control")
+
+![Panel](img/panel.png "Panel de control")
+
 ## Componentes hardware
 
 En construcción
@@ -24,13 +28,15 @@ El coche seleccionado para el proyecto fue el modelo H.King Rattler 1/8 4WD Bugg
 
 ![H.King Rattler 1/8 4WD Buggy](img/RC.jpg "H.King Rattler 1/8 4WD Buggy")
 
+![Mando](img/mando.jpg "Mando de control")
+
 Si se levanta el chasis puede verse la electrónica y mecánica del mismo:
 
 ![Componentes](img/componentes.jpg "Componentes")
 
 Algunos de los componenentes más importantes son:
 
- * **Batería**. No se incluye en el pack y fue adquirida a parte. Es una 9172 Turnigy 5000mAh 2S 20C Lipo Pack.
+ * **Batería**. No se incluye en el pack y fue adquirida a parte. Es una 9172 Turnigy 5000mAh 2S 20C Lipo Pack. En la imagen también se muestra el cargador que se usaba para realizar la carga de las baterías.
 
  ![Batería](img/bateria.jpg "9172 Turnigy 5000mAh 2S 20C Lipo Pack")
  
@@ -77,5 +83,7 @@ En construcción
 * Control del gamepad. Se hace uso de la Gamepad Api de HTML5. Está personalizado para un gamepad de prueba del que disponía por casa y que imita a los típicos gamepads de Playstation.
 * Controles de medición. Se ha usado la librería SteelSeries Gauges para representar visualmente estos controles.
 * Para la comunicación Ajax de la página con el servidor se ha empleado la tecnología WebMethods de ASP.NET
+
+![Interfaz](img/interfaz.png "Interfaz")
 
 **Programación de la placa Arduino**. Dentro de la carpeta Arduino se encuentra el código ISO para programar la placa. Básicamente, en la Arduino se levantan una serie de servicios web similares a REST que usan JSON para intercambiar datos, y que aceptan peticiones para contolar el coche o monitorizar su estado. Estos servicios a su vez traducen las órdenes recibidas y actúan sobre los servos/sensores del coche para realizar la acción solicitada.
